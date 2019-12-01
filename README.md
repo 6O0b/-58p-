@@ -6,7 +6,9 @@ Web Crawling in R with RSelenium
 
 &nbsp;많은 사람들에게 사랑받고 있는 게임인 배틀그라운드, 이 게임에서 랭커가 되려면 어느 정도 잘 해야하며 잘 한다는 기준은 무엇일까? 또한 어떤 지표가 가장 중요하다고 말할 수 있을까?
 
-&nbsp;이 궁금증을 해결하기 위한 첫 걸음으로 RSelenium을 이용하여 웹 크롤링을 해보도록 하겠습니다.
+&nbsp;이 궁금증을 해결하기 위한 첫 걸음으로 Docker를 통해 RSelenium을 이용하여 Top500 위 안의 사람들의 지표를 불러와 보겠습니다.
+
+![pubg op gg](https://user-images.githubusercontent.com/58083333/69910747-bc2b0b00-1453-11ea-8514-04a05c4bde82.PNG)
 
 ### 기대되는 분석 방향
 
@@ -21,7 +23,7 @@ Web Crawling in R with RSelenium
 > ###### ex) KD 및 데미지가 정상적이지만 승률 및 Top10 비율이 높다 => 운영을 잘 하는 사람
 
 ### ScreenShots
-
+![캡처](https://user-images.githubusercontent.com/58083333/69910713-52126600-1453-11ea-8448-459fc9c34624.PNG)
 
 &nbsp;19.12.01 기준 29위에 있는 사람은 Top50 위의 사람들과 비교했을 때, 압도적으로 KD, 데미지 및 승률이 낮고 판수는 아주 높은 편이다.
 &nbsp;따라서 이 사람은 많은 판수 및 존버성 플레이로 랭킹 안에 들었을 것이다.
