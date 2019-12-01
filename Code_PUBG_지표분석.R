@@ -81,8 +81,6 @@ BGData <- data.frame(result[,1],
 colnames(BGData) <- colnames(result)
 rownames(BGData) <- 1:n
 
-remDr$close()
+BGData
 
-# 각 열별 평균과 분산만 구해도 
-# 핵을 쓰거나 핵을 쓰는 것과 비슷한 실력을 가진 사람 또는 
-# 존버만 해서 판수로 올라간 사람을 구분할 수 있다.
+remDr$close()
